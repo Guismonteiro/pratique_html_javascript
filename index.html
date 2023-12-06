@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC - HTML E JAVASCRIPT</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body id="imagem-fundo" background="./img/8421.jpg">
+    <div class="container">
+        <h1>EBAC - HTML E JAVASCRIPT</h1>
+        <h2>Pratique</h2>
+        <form id="form-validacao">
+            <input type="number" id="numero1" placeholder="Primeiro número" required/>
+           
+            <input type="number" id="numero2" placeholder="Segundo número" required/>
+            <button type="submit">
+                ENVIAR
+            </button>
+        </form>
+        <p class="error-message">
+            ERRO! O primeiro número não pode ser maior ou igual ao segundo.
+        </p>
+        <p class="success-message"></p>     
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
